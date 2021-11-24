@@ -6,7 +6,7 @@
 				labelSpanM="4" emptySpanL="1" emptySpanM="1" columnsL="1" columnsM="1">
 				<f:content>
 					<Label text="Bruttogehalt bei vergleichbarer Festanstellung" design="Bold" labelFor="averageSal" tooltip="€4556 entsprechen dem Durchschnittsverdienst eines Angestellten in Deutschland"/>
-					<Slider id="averageSal" min="1000" max="6000" value="{calclatr>/avgsal}" enableTickmarks="true" width="100%" liveChange="onValueChange">
+					<Slider id="averageSal" min="1000" max="12000" value="{calclatr>/avgsal}" enableTickmarks="true" width="100%" liveChange="onValueChange">
 						<ResponsiveScale tickmarksBetweenLabels="20"/>
 					</Slider>
 					<Text text="€ {calclatr>/avgsal}" textAlign="Left"/>
